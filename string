@@ -1,0 +1,23 @@
+var s = "hello. world";
+console.log(s.charAt(s.length-3)); //  r 
+
+
+console.log(s.charAt(2));  // l 
+
+console.log(s.substring(2,5));  // return llo 
+
+console.log(s.slice(2,5)); // same as substring 
+
+console.log(s.indexOf("w")) // 7 
+
+console.log(s.lastIndexOf('l')); // 10 
+
+console.log(s.split(". ")) // ["hello" , "world"] 
+
+console.log(s.replace('h',"H")); // Hello world 
+
+var w = s[s.length-5];
+
+console.log(s.replace(s[s.length-5],'W'));
+
+console.log(s.toUpperCase());
