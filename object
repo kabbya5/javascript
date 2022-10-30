@@ -1,0 +1,14 @@
+let book = {
+    title:"Battle of Hiting",
+    author:" kabbya",
+    content:'some content',
+}
+console.log(book);
+delete book.author;
+console.log(book);
+console.log('title' in book); //true,
+console.log('author' in book); //false
+
+console.log(book.hasOwnProperty("content")); // true
+book.y = 2;
+console.log(book.propertyIsEnumerable("y")); // true,
